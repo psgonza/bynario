@@ -11,7 +11,7 @@ import time,sys,os,subprocess
 
 dbFile="https://www.dropbox.com/s/XXXXXXXXXXXXXXXX/file"
 logFile="/var/log/locker_log.log"
-htmlFile="/usr/share/nginx/www/octopress/data/sshd.html"
+htmlFile="/usr/share/nginx/www/sshd.html"
 servicesL={'ssh':'22','vpn':'1723','httpd':'80'}
 actionsL=('open','close')
 
