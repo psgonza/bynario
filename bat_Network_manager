@@ -41,6 +41,8 @@ IF "%OPTION%"=="8" call :Opt41 "Local Area Connection" "ENABLED"
 IF "%OPTION%"=="9" call :Opt41 "Local Area Connection" "DISABLED"
 IF "%OPTION%"=="10" call :Opt41 "Wireless Network Connection" "ENABLED"
 IF "%OPTION%"=="11" call :Opt41 "Wireless Network Connection" "DISABLED"
+IF "%OPTION%"=="12" call :Opt42 "Local Area Connection" "RESET"
+IF "%OPTION%"=="13" call :Opt42 "Wireless Network Connection" "RESET"
 
 
 goto :MENU
@@ -132,6 +134,16 @@ Echo Setting %~1 status to ... %~2
 netsh interface set interface name="%~1" admin="%~2" 
 goto :Opt4
 
+:Opt42
+cls
+Echo ****** RESET INTERFACES ******
+Echo. 
+Echo Reseting %~1 
+netsh interface set interface name="%~1" admin="DISABLED" 
+netsh interface set interface name="%~1" admin="ENABLED" 
+Echo.
+pause
+goto :MENU
 
 :END
 exit
