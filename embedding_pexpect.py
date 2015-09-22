@@ -1,3 +1,9 @@
+import sys
+from hashlib import md5 
+from cStringIO import StringIO    
+from base64 import b64decode 
+from gzip import GzipFile
+
 try:      
     import pexpect
 except ImportError:  
