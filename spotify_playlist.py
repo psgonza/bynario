@@ -1,4 +1,4 @@
-#/usr/bin/env python
+#!/usr/bin/env python
 # Getting track details from a list of Spotify URLs via spotify API
 # Input file containing the list of URLs mandatory
 # Date: 26 Nov 2015
