@@ -64,6 +64,7 @@ def main():
     for tvserie in myseries:
         print("** Show: %s" % tvserie.rstrip()) 
         copy_episodes(tvserie)
+    myseries.close()
 
 
 if __name__ == "__main__":
