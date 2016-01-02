@@ -38,7 +38,7 @@ def add2DB(temp,press,my_time):
             mytime = int(my_time) - time_mod
         else:
             mytime=int(my_time)
-        c.execute("INSERT INTO BMP085 VALUES (%f,%r,%r)" % (mytime,temp,press))
+        c.execute("INSERT INTO BMP085 VALUES (%f,%d,%d)" % (mytime,temp,press))
     except Exception as e:
         print("Error inserting data into BMP085")
         print(e)
