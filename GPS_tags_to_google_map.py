@@ -75,7 +75,9 @@ def formatme(mydata,reference):
 
 def find_pics(pics_path):
     #Some more logic could be added here
-    return glob.glob(pics_path + "/*")
+    files = glob.glob(pics_path + "/*.NEF") 
+    files.sort(key=lambda x: os.path.getmtime(x))
+    return files
 
 def get_GPS_data(id,path):
     try:
