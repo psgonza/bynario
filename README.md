@@ -21,3 +21,16 @@ Just random code from bynario.com
 
 * bat_Network_manager: BAT windows file for handling network configurations in Windows (more info in http://bynario.com/blog/2014/02/16/cmd-network-managing/)
 
+* GPS_tags_to_google_map.py: Given a directory with NEF files, the script will extract the dates and GPS coordinates, will add a marker in a GMap and print the HTML code.
+
+* DHT22tosqlite.py: Checking the DHT22 sensor and storing the data in SQLlite
+
+* embedding_pexpect.py: Minimal pexpect module code embedded in a python script (base64)
+
+* geolocation_tags.py: Extract GPS tags from a image (exif data)
+
+* spotify_playlist.py: getting URI data from Spotify API 
+
+* handle_tv_shows.py: Moving mp4 tv shows to folders based on name and season
+
+* dropbox_gpg_magic_folder.py: Using gnupg, encrypt and decrypt files 
