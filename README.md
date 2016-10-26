@@ -33,4 +33,6 @@ Just random code from bynario.com
 
 * handle_tv_shows.py: Moving mp4 tv shows to folders based on name and season
 
-* dropbox_gpg_magic_folder.py: Using gnupg, encrypt and decrypt files 
+* dropbox_gpg_magic_folder.py: (Prototype) Using gnupg, encrypt and decrypt files 
+
+*	tiny_tcp_port_scanner.py: Small script for scanning open tcp ports in a hosts (because nmap is not always an option)
