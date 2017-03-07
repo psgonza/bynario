@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Simple Vigenere cipher implementation in Python, using a graphical approach (as you would do in a piece of paper)
 # Idea taken from the book: "The code book" by Simon Simgh
-# Further reading: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+# https://bynario.com - psgonza@bynario.com
 import string
 
 mykey="WHITE"
