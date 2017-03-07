@@ -24,10 +24,7 @@ for row in range(len(source)):
     for i,x in enumerate(source):
         if i <= row: matrix[row].append(x)
 
-# Printing Vigenere square
-print("-> Square:")        
-for i in matrix:
-    print(' '.join(i))
+
         
 # Creating the tuple based on the letter and key. ie:
 # ('D', 'W'), ('I', 'H'), ('V', 'I'), ('E', 'T'), ('R', 'E'), ('T', 'W'), ('T', 'H'), ('R', 'I'), ...        
@@ -51,6 +48,14 @@ for x,y in encryption_tuple:
         ref_row = matrix[0].index(y)
         ciphertext.append(matrix[ref_row][source.index(x)])
 
+
+# Print guide
+print("-> Reference:")        
+print(' '.join([x for x in source]))
+# Printing Vigenere square
+print("-> Square:")        
+for i in matrix:
+    print(' '.join(i))
 # Print results
 print("-> Key: {0}".format(mykey))
 print("-> Input text: {0}".format(input_text))
