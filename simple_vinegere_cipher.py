@@ -51,11 +51,11 @@ for x,y in encryption_tuple:
 
 # Print guide
 print("-> Reference:")        
-print(' '.join([x for x in source]))
+print("   " + ' '.join([x for x in source]))
 # Printing Vigenere square
 print("-> Square:")        
-for i in matrix:
-    print(' '.join(i))
+for id,i in enumerate(matrix,1):
+    print("{:02d} {}".format(id,' '.join(i)))
 # Print results
 print("-> Key: {0}".format(mykey))
 print("-> Input text: {0}".format(input_text))
