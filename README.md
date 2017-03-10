@@ -40,3 +40,5 @@ Just random code from bynario.com
 * GPS_tags_to_google_map.py: extract GPS tags from a list of photos and plot them in a google map
 
 * simple_vinegere_cipher.py & simple_vinegere_cipher_decoder.py: Vinegere ciphers in python using Vigenere square
+
+* vigenere_cipher_mod.py: Vigenere cipher using math operations
