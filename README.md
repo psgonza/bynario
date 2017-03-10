@@ -36,3 +36,7 @@ Just random code from bynario.com
 * dropbox_gpg_magic_folder.py: (Prototype) Using gnupg, encrypt and decrypt files 
 
 *	tiny_tcp_port_scanner.py: Small script for scanning open tcp ports in a hosts (because nmap is not always an option)
+
+* GPS_tags_to_google_map.py: extract GPS tags from a list of photos and plot them in a google map
+
+* simple_vinegere_cipher.py & simple_vinegere_cipher_decoder.py: Vinegere ciphers in python using Vigenere square
